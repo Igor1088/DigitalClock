@@ -1,0 +1,42 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:100");
+
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+html, body {
+  
+  background-color:#fff;
+  
+}
+
+#clock {
+	color: #000; 
+  width:350px;
+  font-size: 60px; 
+  font-family: Lato, sans-serif;
+  height: 64px;
+	position: relative; 
+  top: 50%;     
+  margin-top: 32px;
+  margin-left: 260px;	
+	text-align: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color:#ccc;
+}
+
+#day {
+	color: #000; 
+  font-size: 60px; 
+  font-family: Lato, sans-serif;
+  height: 64px;
+	position: relative; 
+  top: 50%;     
+  margin-top: 32px;
+  margin-left: 260px;	 border-bottom: 1px solid; 
+	text-align: center;
+  width:350px;
+}
+
